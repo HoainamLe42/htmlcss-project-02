@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #ffb900;
+  --font-heading: Sen, sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Common */
+a {
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  min-width: 118px;
+  padding: 0 16px;
+  line-height: 50px;
+  font-weight: 600;
+  font-size: 1.6rem;
+  text-align: center;
+  color: #ffffff;
+  background: #171100;
+  border-radius: 999px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
